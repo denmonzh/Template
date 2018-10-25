@@ -1,0 +1,18 @@
+.footerVideoContainer{
+    justify-content: space-around;
+    padding-top: 45px;
+    font-family: "Raleway - Bold", sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 530px) {
+    .footerVideoContainer{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 411px) {
+    .footerVideoContainer{
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,111 @@
+.pricingTitleContainer{
+    flex-direction: column;
+    padding-top: 160px;
+    align-items: center;
+}
+
+.titleTextPricing{
+    color: #323232;
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+}
+
+.titleInfoTextPricing{
+    color: #727272;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.featuresTitlePricing{
+    flex-direction: column;
+    padding-top: 160px;
+    align-items: center;
+}
+
+.shape{
+    width: 68px;
+    height: 1px;
+    background-color: #0199e6;
+}
+
+.pricingCartsMainContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.firstPriceCart{
+    width: 80%;
+    height: 500px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+}
+
+.headPriceCartBlack{
+    background: #323232;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headPriceCartBlue{
+    background: #0199e6;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textPriceCarts{
+    height: 55px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #323232;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    border-bottom: 1px dotted;
+    border-color: #727272;
+}
+
+.footerPriceCart{
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.priceMonthText{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    color: #323232;
+}
+
+.singUpPriceButtonWhite{
+    color: #727272;
+    width: 94px;
+    height: 40px;
+    border: 1px solid #727272;
+    background-color: #ffffff;
+}
+
+.singUpPriceButtonBlue{
+    color: white;
+    width: 94px;
+    height: 40px;
+    border: 1px solid #727272;
+    background-color: #0199e6
+}
+
+.contentCartPriceContainer{
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 960px) {
+    .contentCartPriceContainer{
+        padding-top: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+}

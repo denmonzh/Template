@@ -1,0 +1,23 @@
+.questionMainContainer{
+    padding-top: 90px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerQuestion{
+    flex-direction: column;
+    align-items: center;
+}
+
+.questionText{
+    color: #323232;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 24px;
+}
+
+.contactText{
+    color: #008ed6;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}

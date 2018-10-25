@@ -1,0 +1,55 @@
+
+.featuresTitleContainer{
+    flex-direction: column;
+    padding-top: 160px;
+    align-items: center;
+}
+
+.titleTextFeatures{
+    color: #323232;
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+}
+
+.mainHeadFeaturesCartContainer{
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.titleInfoTextFeatures{
+    color: #727272;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.headCartContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleTextFeaturesCart{
+    color: #323232;
+    font-family: "Raleway Semi-Bold", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.headCartContainerTitle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleCartPrice{
+    color: #ffffff;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 24px;
+}
+
+.priceInfoText{
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+}
+

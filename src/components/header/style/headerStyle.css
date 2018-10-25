@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
+
+.socialImg{
+    height: 26px;
+}
+
+.headLogoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.iconContainer{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainLogoContainer{
+    padding-top: 50px;
+}
+
+.mainInfoContainer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mainTextWhite{
+    font-family: Raleway, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 60px;
+    color: white;
+    cursor: default;
+}
+
+.mainTextBlue{
+    color: blue;
+    font-family: "Raleway Medium", sans-serif;
+}
+
+.mainTextWhiteMedium{
+    font-family: "Raleway - Bold", sans-serif;
+}
+
+.mainTextInfoContainer{
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+}
+
+.smallTextInfo{
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: default;
+}
+
+.smallTextContainer{
+    justify-content: center;
+}
+
+.maimFromContainer{
+    padding-top: 150px;
+    justify-content: center;
+    text-align: center;
+    height: 270px;
+}
+
+.FormContainer {
+    background-color: #000000;
+    opacity: 0.5;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputForm{
+    height: 40px;
+    width: 100%;
+    box-shadow: -3px 0 0 #0199e6;
+    border: 1px solid rgba(1, 153, 230, 0.3);
+    background: rgb(0,0,0);
+    color: rgba(255,255,255,0.5);
+    padding: 5px;
+}
+
+.buttonForm{
+    width: 100%;
+    height: 54px;
+    background-color: #008ed6;
+    cursor: pointer;
+}
+
+.buttonText{
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.containerActions{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.registerNow{
+    height: 100px;
+}
+
+.textRegister{
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    .buttonText{
+        color: white;
+        font-family: Raleway, sans-serif;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .inputForm{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .buttonText{
+        color: white;
+        font-family: Raleway, sans-serif;
+        font-size: 8px;
+        text-transform: uppercase;
+    }
+
+    .buttonForm{
+
+        height: 50px;
+
+    }
+}

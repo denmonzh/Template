@@ -1,0 +1,32 @@
+.containerGetStarted{
+    flex-direction: column;
+    align-items: center;
+}
+
+.getStartedMainContainer{
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weAreTextGet{
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    cursor: default;
+}
+
+.solutionsTextGet{
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+    cursor: default;
+}
+
+.getStartedButton{
+    width: 185px;
+    height: 54px;
+    background-color: #008ed6;
+    color: white;
+    font-size: 16px;
+}

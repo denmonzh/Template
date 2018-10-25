@@ -1,0 +1,55 @@
+.titleTrustedContainer{
+    padding-top: 160px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.textBlock{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.textBlockStyle{
+    font-family: "Source Sans Pro - It", sans-serif;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.companiesTrusted{
+
+}
+
+
+.footerTextTrusted{
+    color: #0199e6;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+.companiesContainer{
+    padding-top: 80px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+    .spaceBetween{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .spaceBetweenCompanies{
+        padding-top: 50px;
+    }
+    .companiesContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

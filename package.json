@@ -1,0 +1,36 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.3.0",
+    "nuka-carousel": "^4.4.1",
+    "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
+    "react-coverflow": "^0.2.16",
+    "react-dom": "^16.6.0",
+    "react-image-gallery": "^0.8.12",
+    "react-player": "^1.6.6",
+    "react-responsive-carousel": "^3.1.43",
+    "react-scripts": "2.0.5",
+    "react-slick": "^0.23.2",
+    "react-video": "^1.5.3",
+    "react-vimeo": "^2.0.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

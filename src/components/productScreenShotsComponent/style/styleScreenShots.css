@@ -1,0 +1,12 @@
+.screenShootsContainer{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    height: 650px;
+}
+
+.titleScreenShotsContainer{
+    flex-direction: column;
+    align-items: center;
+
+}

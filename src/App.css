@@ -1,0 +1,27 @@
+.mainHeaderContainer{
+    background: radial-gradient(rgba(0, 10, 15, 0.85) 100%, rgb(0,0,0)), url("./img/headImg.png") center no-repeat fixed;
+    background-size: cover;
+}
+
+
+.describeProductContainer{
+    justify-content: flex-end;
+    background: #f7f8fa;
+}
+
+.screenShootMainContainer{
+    margin-top: 160px;
+    padding-top: 60px;
+    background: #f7f8fa;
+}
+
+.getStarted{
+    margin-top: 160px;
+    background: radial-gradient(rgba(0, 10, 15, 0.65) 100%, rgb(0,0,0)), url("./img/getStarted.png") center no-repeat fixed;
+    background-size: cover;
+}
+
+.footer{
+    background: #f7f8fa;
+    height: 284px;
+}
